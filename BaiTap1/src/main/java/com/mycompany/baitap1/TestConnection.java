@@ -9,7 +9,7 @@ public class TestConnection {
     public static void main(String[]args) {
         try{
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String url="jdbc:sqlserver://localhost:1433;databaseName=QLsinhvien;";
+            String url="jdbc:sqlserver://localhost:1433;databaseName=QLSanPham;";
             Connection con=DriverManager.getConnection(url,"sa","123");
             System.out.println("Ket noi thanh cong");
             Statement statement;
